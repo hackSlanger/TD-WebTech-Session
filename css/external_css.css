@@ -1,0 +1,13 @@
+		/*Element Selector*/
+		p{
+			font-size: 24px;
+			color: red;
+		}
+
+		/*CLASS Seclectors*/
+		.my_border { border: 2px solid black; border-radius: 10x; height: 200px; width:200px; }
+
+		/* ID Selectors */
+		#message1 { font-size: 80px; color: blue; }
+		#message2 { font-size: 40px; color: red; }
+		#message3 { color: green; }

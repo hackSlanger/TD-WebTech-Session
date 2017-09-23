@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled Document</title>
+<style type="text/css">
+#msg,#msg2,#msg3,#msg4
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	color:#F00;
+}
+.hell,.pass
+{
+	margin-top: 10px;
+	padding: 18px;
+	height: 4px;
+	font-family: "Courier New", Courier, monospace;
+	width: 90px;
+	border-radius: 50px;
+}
+.age
+{
+	position:absolute;
+	padding:18px;
+	height:4px;
+	font-family:"Courier New", Courier, monospace;
+	width:90px;
+	border-radius:50px;
+	font-size:9px
+}
+
+.field
+{
+	box-shadow:#336 2px 2px 2px;
+	width:40%;
+	margin-top:120px;
+	border-radius:10px;
+}
+
+.btn
+{
+	height:30px;
+	width:70px;
+	border-radius:4px;
+	background:#33F;
+	color:#FFF;
+	border-color:#33F;
+}
+
+.btn:hover
+{
+	background-color:#FFF;
+	border:solid 1px thin #33F;
+	color:#33F;
+	transition:ease-in 0.4s;
+	transition:ease-out 0.4s;
+	cursor:not-allowed;
+}
+
+.texts
+{
+	font-size:14px bold #33F;
+}
+	
+</style>
+
+</head>
+<body style="background:url('bg.jpg');">
+	<center>
+		<fieldset class="field">
+			<center>
+				<form id="myform" name="myform">
+					<p class="texts"> LOGIN PAGE </p>
+					<hr />
+					<input type="text" class="hell" placeholder="Username" id="firstname" />
+					<br />
+					<input type="password" class="pass" placeholder="Password" id="password" />
+					<br />
+					<input type="email" placeholder="Email" name="email" id="email" class="hell" />
+					<br />
+					<input type="text" class="hell" placeholder="Age" id="age" name="age" />
+					<p id="msg4"></p><br />
+					<hr />
+
+					<input type="submit" class="btn" palceholder="Button" onclick="submitClick()" />
+				</form>
+			</center>
+		</fieldset>
+	</center>
+</body>
+</html>
